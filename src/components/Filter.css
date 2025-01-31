@@ -1,0 +1,27 @@
+.filter-data {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.btn {
+    margin-left: 20px;
+    background-color: #f0f0f0;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    height: 40px;
+    font-size: large;
+    padding: 0 15px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn:hover {
+    background-color: #ddd;
+    transform: scale(1.05);
+}
+
+.btn.click {
+    background-color: #3498db;
+    color: white;
+}
